@@ -1,7 +1,7 @@
 // Navjot Kaur
 //File name - index.js
 //website -
-//Description - index.js page links to all .ejs files contained in the views folder
+//Description - index.js page links to all .ejs files contained in the views folder of express portfolio
 
 var express=require('express');
 var router=express.Router();
