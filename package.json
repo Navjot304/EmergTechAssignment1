@@ -1,0 +1,19 @@
+{
+  "name": "navjot",
+  "version": "1.0.0",
+  "description": "navjot express portfolio",
+  "main": "app.js",
+  "scripts": {
+    "test": "ejs",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "EE"
+  },
+  "keywords": [
+    "ejs"
+  ],
+  "author": "Navjot Kaur",
+  "license": "ISC"
+}

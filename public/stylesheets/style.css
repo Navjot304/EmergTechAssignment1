@@ -1,0 +1,92 @@
+<style>
+.p
+{
+}
+#total{
+	border: ridge;
+	height:100%;
+	width:100%
+	padding:10px;
+}
+
+
+#header {
+	border: 2px ridge;
+	height:110px;
+	width:98.3%;
+    	background-color:firebrick;
+    	clear:both;
+    	padding:10px;
+	color:ghostwhite;
+}
+#listmenu li{
+	display:inline;
+	text-align:center;
+}
+a:link {
+    text-decoration: none;
+	color:ghostwhite;
+}
+
+a:visited {
+    text-decoration: none;
+	color:midnightblue;
+}
+
+a:hover {
+    text-decoration: underline;
+	color:mediumblue;
+}
+
+a:active {
+    text-decoration: underline;
+	color:ghostwhite;
+	
+}
+
+
+#section {
+	border: 2px ridge;
+	height:350px;
+    	width:84.7%;
+	background-color:whitesmoke;
+    	float:left;
+    	padding:10px 100px 10px 100px;	 	 
+}
+#listbody li{
+	list-style-type:circle;
+	display:inline;
+	text-align:center;
+	align:center;
+	padding:0px 24px 0px 24px;
+}
+
+
+img{
+	padding: 25px 50px 25px 10px;
+}
+
+
+#footer {
+	border: 2px ridge;
+    	background-color:firebrick;
+	height:110px;
+	width:98.3%;
+    	color:ghostwhite;
+    	clear:both;
+    	text-align:center;
+    	padding:10px;	 	 
+}
+
+#listme li{
+	display:inline;
+	text-align:center;
+	padding:0px 100px 0px 70px;
+}
+
+#listi li{
+	display:inline;
+	text-align:center;
+	padding:0px 10px 0px 100px;
+}
+</style>
