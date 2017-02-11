@@ -1,6 +1,6 @@
 // Navjot Kaur
 //File name - index.js
-//website -
+//website - http://emergingtech-comp308-navjot.azurewebsites.net/
 //Description - index.js page links to all .ejs files contained in the views folder of express portfolio
 
 var express=require('express');
