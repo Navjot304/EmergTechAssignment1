@@ -1,3 +1,9 @@
+<%# Navjot Kaur
+File name - contact.ejs
+website -
+Description - contact.ejs displays contact details
+%>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -21,8 +27,8 @@
 
 	<center> <a href="/">Home</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 	<a href="/about">About</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <a href="/resume">Resume</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <a href="/skills">Skills</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="/service">Service</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="/project">Projects</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
       	<a href="/contact">Contact</a> </center>
 
 </nav>
@@ -33,12 +39,45 @@
 <div id="section">
 
 <h1 style="text-align:center; font-family:cursive"> Contact Info </h1>
-<p align="center">  Looking forward to contact Navjot?</p>
-<p align="center"> Get detailed information below to contact Navjot via Internet. Send her email on Outlook account and/or follow her on LinkedIn, as shared the information below. Contact to know more about her!</p>
-<p align="center"> <b>Outlook id - </b> nkaur173@my.centennialcollege.ca </p>
-<p align="center"> <b>Linked id - </b> navjot304@gmail.com </p>
-<p align="center"> Moreover, you can find direct links to Outlook and Linked in the end of pages! </p> 
+
+<form align="center">
+    <div>
+        <label for="name">Name</label>
+        <div>
+            <input type="text" id="name" name="name" placeholder="First & Last Name" value="">
+        </div>
+    </div>
+    <div>
+        <label for="email">Email</label>
+        <div>
+            <input type="email" class="form-control" id="email" name="email" placeholder="example@domain.com" value="">
+        </div>
+    </div>
+    <div>
+        <label for="message">Message</label>
+        <div>
+            <textarea rows="5" name="message"></textarea>
+        </div>
+    </div>
+    <div>
+        <label for="human">5+8= ?</label>
+        <div>
+            <input type="text" id="human" name="human" placeholder="Your Answer">
+        </div>
+    </div>
+    <div>
+        <div>
+            <input id="submit" name="submit" type="submit" value="Send">
+        </div>
+    </div>
+    <div>
+        <div>
+            <! Will be used to display an alert to the user>
+        </div>
+    </div>
+</form>
 </div>
+
 
 
 

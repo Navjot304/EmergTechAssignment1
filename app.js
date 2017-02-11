@@ -1,24 +1,22 @@
+// Navjot Kaur
+//File name - app.js
+//website -
+//Description - app.js page finds the route file index.js and fetchs all the .ejs files in the views folder
+
 var express=require('express');
 var path=require('path');
-//var favicon=require('serve-favicon');
-//var logger=require('morgan');
-//var cookieParser=require('cookie-parser');
-//var bodyParser=require('body-parser');
+
 
 var index=require('./routes/index');
 
 var app=express();
 
 app.set('views', path.join(__dirname, 'views'));
-app.set('view engine', 'ejs');
+app.set('view engine', 'ejs');   //considers the .ejs files in views folder
 
-//app.use(logger('dev'));
-//app.use(bodyParser.json());
-//app.use(bodyParser.urlencoded({ extended: false}));
-//app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
-app.use('/', index);
+app.use('/', index);  //uses index.js file in the routes folder
 
 
 app.use(function(req, res, next) {
@@ -27,12 +25,5 @@ app.use(function(req, res, next) {
     next(err);
 });
 
-//app.use(function(err, req, res, next) {
-  //  res.locals.message=err.message;
-    //res.locals.error=req.app.get('env') === 'development' ? err : {};
-
-   // res.status(err.status || 500);
-   // res.render('error');
-//});
 
 module.exports=app;
