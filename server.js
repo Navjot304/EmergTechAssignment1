@@ -4,7 +4,7 @@
 //Description - server.js page runs the app.js file and listens to port 3000.
 
 var app=require('./app');
-var debug=require('debug')('EmergTechAssignment1:server');
+var debug=require('debug')('Emergingtech_COMP308_Sec004_Assignment-1_Navjot-Kaur:server');
 var http=require('http');
 
 const localport=3000;   //port set to 3000
